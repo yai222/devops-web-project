@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node {
-            label 'dockerhost-build-server'
+            label  'built-in'
         }
     }
     tools {
